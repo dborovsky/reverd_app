@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal" >
+
+   
+
+    <TextView
+        android:id="@+id/row_country_tv_country_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/add_to_blacklist_text_gray"
+        android:text="TextView"
+        android:textSize="@dimen/font_size_20" />
+
+
+</RelativeLayout>

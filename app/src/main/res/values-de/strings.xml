@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- common string -->
+    <string name="app_name">Reverd</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="drawer_open">Schubfach öffnen</string>
+    <string name="drawer_close">Schubfach schließen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="please_wait">Bitte warten ...</string>
+    <string name="send">Senden</string>
+
+    <!-- alert message -->
+    <string name="alert_fill_all_required_field">Bitte alle erforderlichen Felder ausfüllen</string>
+    <string name="alert_please_select_country">Bitte Land auswählen</string>
+    <string name="alert_your_complaint_has_been_sent_for_review">Beschwerde wurde erfolgreich übersandt</string>
+    <string name="alert_no_internet">Keine Internetverbindung verfügbar</string>
+    <string name="alert_please_select_atleast_one_number">Bitte mindestens eine Nummer auswählen</string>
+    <string name="alert_please_enter_notes">Bitte Notizen einfügen</string>
+    <string name="alert_number_already_exists">Die eingegebene Nummer existiert bereits.</string>
+    <string name="alert_report_this_number_to_the_community">Vermerken Sie diese Nummer auf der schwarzen Liste der Community.\nInformieren Sie andere.</string>
+    <string name="alert_add_this_number_to_blacklist">Soll diese Nummer der Blacklist beigefügt werden?</string>
+    <string name="alert_enter_valid_email">Geben Sie eine gültige E-Mail-Adresse ein</string>
+
+    <!-- Title Text -->
+    <string name="blocked_list_title">Blockierte Nummern</string>
+    <string name="black_list_title">Schwarze Liste</string>
+    <string name="recent_calls_title">Neueste Anrufe</string>
+    <string name="edit_list_entry">Eintragung bearbeiten</string>
+    <string name="add_toblack_list_title">Zur schwarzen Liste hinzufügen</string>
+    <string name="detail_title">Details</string>
+    <string name="white_list_title">Weiße Liste</string>
+    <string name="complaints_title">Beschwerden</string>
+    <string name="submit_complaints_title">Beschwerde einreichen</string>
+    <string name="stats_title">Statistische Angaben</string>	
+    <string name="trash_title">Müll</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="help_title">Hilfe</string>
+    <string name="privacy_title">Privatsphäre</string>
+
+    <!-- left menu fragment -->
+    <string name="black_list">Schwarze Liste</string>
+    <string name="recent_calls">Neueste Anrufe</string>
+    <string name="stats">Statistische Angaben</string>
+    <string name="add_to_backlist">Zur schwarzen Liste hinzufügen</string>
+    <string name="white_list">Weiße Liste</string>
+    <string name="compaints">Beschwerden</string>
+    <string name="trash">Müll</string>
+    <string name="settings">Einstellungen</string>
+    <string name="subscription">Abonnement</string>
+    <string name="help">Hilfe</string>
+    <string name="privacy">Privatsphäre</string>
+    <string name="feedback">Feedback</string>
+
+    <!-- add to blacklist -->
+    <string name="number">Telefonnummer</string>
+    <string name="country">Land des Anrufers</string>
+    <string name="name">Name (soweit bekannt)</string>
+    <string name="notes">Notizen</string>
+    <string name="add">Hinzufügen</string>
+
+    <!-- submit complaints -->
+    <string name="complain">Beschwerde</string>
+    <string name="submit">Übermitteln</string>
+    <string name="please_select_country">Bitte Land auswählen</string>
+
+    <!-- detail fragment -->
+    <string name="view_complaints">Beschwerden ansehen</string>
+
+    <!-- setting fragment -->
+    <string name="sync_with_email">Sync with E-mail</string>
+    <string name="block_calls">Blockanruf ohne Anrufer-ID</string>
+    <string name="block_area_contry">Block nach Vorwahl oder Land</string>
+    <string name="enter_your_email">Geben Sie Ihre E-Mail</string>
+
+    <!-- feedback fragment -->
+    <string name="feedback_txt">Teilen Sie Ihre Erfahrungen oder schlagen Sie Verbesserungen vor.</string>
+    <string name="my_comments">Meine Kommentare</string>
+
+    <!-- Trash fragment -->
+    <string name="selected_messages_deleted">Die ausgewählten Nachrichten wurden gelöscht</string>
+
+    <!-- Recent calls fragment -->
+    <string name="recent_calls_add_to_blacklist">Zur schwarzen Liste hinzufügen</string>
+    <string name="recent_calls_add_to_whitelist">Zur weißen Liste hinzufügen</string>
+    <string name="recent_calls_status_blacklist">Schwarze Liste</string>
+    <string name="recent_calls_status_whitelist">Weiße Liste</string>
+
+    <!-- whitelist fragment -->
+    <string name="white_list_edit">Bearbeiten</string>
+    <string name="white_list_delete">Löschen</string>
+
+    <!-- permission popup toast -->
+    <string name="permission_toast_msg">Zur sachgemäßen Funktion der App den Anwendungszugang aktivieren (empfohlen)</string>
+
+    <!-- Production: -->
+    <string name="WebServicePrefix">https://reverd.com/rest_x9r5/v1</string>
+    <!-- Development: -->
+    <!--
+    <string name="WebServicePrefix">https://reverd.com/rest_x9r5/dev/v1.1</string>
+    -->
+
+    <!-- Statistics fragment -->
+    <string name="subscribe_for_updates">Für Updates abonnieren Sie bitte</string>
+    <string name="your_community">Ihre Community</string>
+    <string name="complaints_database">Datenbank von Beschwerden</string>
+    <string name="is_outdated">ist veraltet</string>
+    <string name="blocked_calls">blockierte Anrufe</string>
+    <string name="in_the_last_days">in den letzten 30 Tagen</string>
+    <string name="you_added">Ihre Hinzufügung</string>
+    <string name="to_your_white_list">zu Ihrer Whitelist</string>
+    <string name="to_your_black_list">zu Ihrer Blacklist</string>
+    <string name="num_phone_numbers">Telefonnummern</string>
+    <string name="view_my_black_list">Meine Blacklist ansehen</string>
+    <string name="view_my_white_list">Meine Whitelist ansehen</string>
+    <string name="up_to_date">ist auf neuestem Stand</string>
+    <string name="updated">Aktualisiert</string>
+    <string name="number_added_by_reverd_app">Von Reverd-App-Anwender hinzugefügte Nummer</string>
+    <string name="view_blocked_numbers">Blockierte Nummern ansehen</string>
+    <string name="phone_added_to_backlist">Die Nummer wurde auf die schwarze Liste gesetzt</string>
+    <string name="ten_minutes">10 Minuten</string>
+    <string name="blocked_calls_in_the_last">blockierte Anrufe in den letzten</string>
+    <string name="subscription_description_text">Die automatischen Updates der Community-Blacklist beinhalten aktuell gemeldete Telefonnummern, die als belästigend angesehen werden.</string>
+
+    <!-- Subscription fragment: -->
+    <string name="one_month_subscription">Ein Monats Abonnement</string>
+    <string name="six_months_subscription">Halb Jahres Abonnement</string>
+    <string name="one_year_subscription">Ein Jahres Abonnement</string>
+    <string name="monthly_subscription">Monatliches Abonnement</string>
+    <string name="halfyear_subscription">Halb Jährliches Abonnement</string>
+    <string name="yearly_subscription">Jährliches Abonnement</string>
+    <string name="unknown_subscription">unbekanntes Abonnement</string>
+    <string name="subscription_title">Abonnement</string>
+    <string name="you_re_subscribed_using">Mit Ihrer Abonnierung nutzen Sie</string>
+    <string name="until">bis</string>
+    <string name="days_old">Tage alt</string>
+    <string name="day_old">Tag alt</string>
+    <string name="star_required_field">* Erforderliches Feld</string>
+
+    <!-- Animation -->
+    <string name="show_slides">Anzeigen Slide-Show</string>
+
+    <string name="anim_0">
+    <![CDATA[
+      <center>Automatischer Schutz
+      <br>vor 
+      <br>unerwünschten Anrufen
+      </center>
+    ]]>
+    </string>
+    <string name="anim_1">
+    <![CDATA[
+      <center>Unerwünschte Anrufe
+      <br>stummschalten, um
+      <br>Störungen zu vermeiden
+      </center>
+    ]]>
+    </string>
+    <string name="anim_2">
+    <![CDATA[
+      <center>Kein Ton
+      <br>
+      <br>Keine Vibration
+      </center>
+    ]]>
+    </string>
+    <string name="anim_3">
+    <![CDATA[
+      <center>Reverd-App erstellt
+      <br>Ihre eigene Blacklist,
+      <br>ohne Ihre Kontakte
+      <br>anzurühren
+      </center>
+    ]]>
+    </string>
+    <string name="anim_4">
+    <![CDATA[
+      <center>Fügen Sie beliebig
+      <br>Nummern
+      <br>zur Blacklist hinzu
+      </center>
+    ]]>
+    </string>
+    <string name="anim_5">
+    <![CDATA[
+      <center>Reverd-App erstellt auch
+      <br>Ihre eigene Whitelist
+      </center>
+    ]]>
+    </string>
+    <string name="anim_6">
+    <![CDATA[
+      <center>Klicken Sie Bearbeiten,
+      <br>um Nummern zur
+      <br>Whitelist hinzuzufügen
+      </center>
+    ]]>
+    </string>
+    <string name="anim_7">
+    <![CDATA[
+      <center>Wählen Sie Nummern
+      <br>aus, um sie zur Whitelist
+      <br>hinzuzufügen
+      </center>
+    ]]>
+    </string>
+    <string name="anim_8a">
+    <![CDATA[
+      <center>Entfernte Nummern
+      <br>werden nicht mehr
+      <br>stummgeschaltet
+      </center>
+    ]]>
+    </string>
+    <string name="anim_8b">
+    <![CDATA[
+      <center>Block nach
+      <br>Vorwahl
+      <br>oder Land
+      </center>
+    ]]>
+    </string>
+    <string name="anim_9">
+    <![CDATA[
+      <center>Schwarzliste mit
+      <br>Tausenden von als lästig
+      <br>gemeldeten Nummern
+      <br>bereits vorhanden
+      </center>
+    ]]>
+    </string>
+
+</resources>

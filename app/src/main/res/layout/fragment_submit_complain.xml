@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/submit_compaints_background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <EditText
+            android:id="@+id/fragment_submit_complaints_et_number"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/submit_compaints_field_background"
+            android:hint="@string/number"
+            android:inputType="phone"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textColorHint="@color/submit_compaints_text_gray"
+            android:textSize="@dimen/font_size_18" />
+
+          <Spinner
+            android:id="@+id/fragment_submit_complaints_et_contry"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dropdwn"
+             />
+
+        <EditText
+            android:id="@+id/fragment_submit_complaints_et_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/submit_compaints_field_background"
+            android:hint="@string/name"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textColorHint="@color/submit_compaints_text_gray"
+            android:textSize="@dimen/font_size_18" />
+
+        <EditText
+            android:id="@+id/fragment_submit_complaints_et_notes"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/submit_compaints_field_background"
+            android:gravity="top"
+            android:hint="@string/complain"
+            android:padding="5dp"
+            android:textColorHint="@color/submit_compaints_text_gray"
+            android:textSize="@dimen/font_size_18" />
+
+        <Button
+            android:id="@+id/fragment_submit_complaints_btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@color/actionbar_color"
+            android:hint="@string/notes"
+            android:padding="6dp"
+            android:text="@string/submit"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_size_18"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

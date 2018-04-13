@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionbar_color">#1d8fd5</color>
+    
+    <color name="slider_background">#717171</color>
+    <color name="slider_line">#bebebe</color>
+    <color name="slider_font_black">#000000</color>
+    <color name="slider_font_white">#F1F1F1</color>
+    
+    <color name="blacklist_font_number_white">#fefefe</color>
+    <color name="blacklist_font_name_white">#e7e7e7</color>
+    <color name="blacklist_backgroung">#2F2F2F</color>
+
+    <color name="recentcalls_font_number_white">#fefefe</color>
+    <color name="recentcalls_font_name_white">#e7e7e7</color>
+    <color name="recentcalls_background">#2F2F2F</color>
+
+    <color name="whitelist_backgroung">#FFFFFF</color>
+     <color name="whitelist_font_number_black">#2F2F2F</color>
+     <color name="whitelist_font_name_black">#797777</color>
+
+     <color name="add_to_blacklist_background">#E7E7E7</color>
+     <color name="add_to_blacklist_field_background">#FFFFFF</color>
+     <color name="add_to_blacklist_text_gray">#b5b3b3</color>
+     
+     <color name="submit_compaints_background">#E7E7E7</color>
+     <color name="submit_compaints_field_background">#FFFFFF</color>
+     <color name="submit_compaints_text_gray">#b5b3b3</color>
+     
+     <color name="setting_sync_button">#abaaaa</color>
+     <color name="setting_block_call_font">#2F2F2F</color>
+     <color name="setting_country_name">#4b4b4b</color>
+     <color name="setting_area_name">#ffffff</color>
+     <color name="setting_country_divider">#1d8fd5</color>
+    <color name="setting_area_divider">#ffffff</color>
+
+    <color name="subscription_background">#FFFFFF</color>
+
+    <color name="blue_button_background">#006699</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="black">#00000000</color>
+
+    <color name="add_to_blacklist_required_star">#b5b3b3</color>
+
+</resources>

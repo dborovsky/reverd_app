@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/expander_group"
+        android:id="@+id/row_navigation" />
+
+    <TextView
+        android:id="@+id/row_setting_country_tv_country_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:text="India +91"
+        android:textSize="@dimen/font_size_20" >
+
+        <requestFocus />
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/row_setting_country_cb_country"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:button="@drawable/bg_checkedbox_blue"
+        android:focusable="false"
+        android:clickable="false"
+        />
+
+</LinearLayout>

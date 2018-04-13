@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/submit_compaints_background"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <TextView
+        android:id="@+id/fragment_detail_tv_number"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/submit_compaints_field_background"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_size_20" />
+
+    <TextView
+        android:id="@+id/fragment_detail_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@id/fragment_detail_tv_number"
+        android:layout_marginTop="20dp"
+        android:background="@color/submit_compaints_field_background"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_size_20" />
+
+    <TextView
+        android:id="@+id/fragment_detail_tv_notes"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_below="@id/fragment_detail_tv_name"
+        android:layout_marginTop="20dp"
+        android:background="@color/submit_compaints_field_background"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_size_20" />
+
+    <Button
+        android:id="@+id/fragment_detail_btn_view_complaints"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/fragment_detail_tv_notes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@color/actionbar_color"
+        android:padding="5dp"
+        android:text="@string/view_complaints"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_20"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/fragment_detail_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

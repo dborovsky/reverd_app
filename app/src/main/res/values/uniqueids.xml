@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Left menu items. -->
+
+    <item name="ID_INVALID" type="id"/>
+
+    <item name="ID_BLACKLIST" type="id"/>
+    <item name="ID_BLOCKEDCALLLIST" type="id"/>
+    <item name="ID_CALLS" type="id"/>
+    <item name="ID_STATS" type="id"/>
+    <item name="ID_ADD_TO_BLACKLIST" type="id"/>
+    <item name="ID_ADD_TO_WHITELIST" type="id"/>
+    <item name="ID_COMPLAINTS" type="id"/>
+    <item name="ID_TRASH" type="id"/>
+    <item name="ID_SETTINGS" type="id"/>
+    <item name="ID_SUBSCRIPTION" type="id"/>
+    <item name="ID_HELP" type="id"/>
+    <item name="ID_PRIVACY" type="id"/>
+    <item name="ID_FEEDBACK" type="id"/>
+
+    <!-- Options used to pass arguments between async tasks and fragments. -->
+
+    <item name="IFC_FULL_NUMBER_ID" type="id"/>
+    <item name="IFC_NUMBER_WITHOUT_PREFIX_ID" type="id"/>
+    <item name="IFC_COUNTRY_NAME_ID" type="id"/>
+    <item name="IFC_COUNTRY_ISO3166_1_ID" type="id"/>
+    <item name="IFC_COUNTRY_NUM_CODE_ID" type="id"/>
+    <item name="IFC_NAME_ID" type="id"/>
+    <item name="IFC_NOTE_ID" type="id"/>
+    <item name="IFC_NUMBER_LIST" type="id"/>
+
+    <item name="IFC_LISTID_ID" type="id"/>
+
+    <item name="IFC_ADD_TO_COMM_BL_ID" type="id"/>
+    <item name="IFC_ADD_TO_COMM_WL_ID" type="id"/>
+
+    <item name="IFC_IAP_TERM" type="id"/>
+    <item name="IFC_IAP_RECOURRING" type="id"/>
+
+    <item name="FRAGMENT_ID_DETAILS" type="id"/>
+    <item name="FRAGMENT_ID_EDIT" type="id"/>
+</resources>

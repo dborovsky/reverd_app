@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/submit_compaints_background"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:id="@+id/entry_layout"
+        >
+
+        <EditText
+            android:id="@+id/entry_number"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/add_to_blacklist_field_background"
+            android:hint="@string/number"
+            android:paddingLeft="5dp"
+            android:inputType="phone"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:textColorHint="@color/add_to_blacklist_text_gray"
+            android:textSize="@dimen/font_size_20" />
+
+        <Spinner
+            android:id="@+id/entry_country"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:imeOptions="actionNext"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dropdwn"
+             />
+
+        <EditText
+            android:id="@+id/entry_name"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/add_to_blacklist_field_background"
+            android:hint="@string/name"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:textColorHint="@color/add_to_blacklist_text_gray"
+            android:textSize="@dimen/font_size_20" />
+
+        <EditText
+            android:id="@+id/entry_note"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/add_to_blacklist_field_background"
+            android:gravity="top"
+            android:padding="5dp"
+            android:imeOptions="actionDone"
+            android:textColorHint="@color/add_to_blacklist_text_gray"
+            android:textSize="@dimen/font_size_20" />
+
+        <Button
+            android:id="@+id/entry_submitbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@color/actionbar_color"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/submit"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_size_20"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blacklist_backgroung" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+        <EditText
+            android:id="@+id/fragment_add_to_blacklist_et_number"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@color/add_to_blacklist_field_background"
+            android:hint="@string/number"
+            android:paddingLeft="5dp"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textColorHint="@color/add_to_blacklist_text_gray"
+            android:textSize="@dimen/font_size_20"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/textView2"
+            android:layout_toStartOf="@+id/textView2" />
+
+
+        <Spinner
+            android:id="@+id/fragment_add_to_blacklist_et_contry"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@drawable/dropdwn"
+            android:layout_below="@+id/fragment_add_to_blacklist_et_number"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@+id/textView5"
+            android:layout_toStartOf="@+id/textView5" />
+
+                <EditText
+                    android:id="@+id/fragment_add_to_blacklist_et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:background="@color/add_to_blacklist_field_background"
+                    android:hint="@string/name"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true"
+                    android:textColorHint="@color/add_to_blacklist_text_gray"
+                    android:textSize="@dimen/font_size_20"
+                    android:layout_below="@+id/fragment_add_to_blacklist_et_contry"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignRight="@+id/fragment_add_to_blacklist_et_contry"
+                    android:layout_alignEnd="@+id/fragment_add_to_blacklist_et_contry" />
+
+                        <EditText
+                            android:id="@+id/fragment_add_to_blacklist_et_notes"
+                            android:layout_width="match_parent"
+                            android:layout_height="137dp"
+                            android:background="@color/add_to_blacklist_field_background"
+                            android:gravity="top"
+                            android:hint="@string/notes"
+                            android:padding="5dp"
+                            android:textColorHint="@color/add_to_blacklist_text_gray"
+                            android:textSize="@dimen/font_size_20"
+                            android:layout_below="@+id/fragment_add_to_blacklist_et_name"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_toLeftOf="@+id/textView7"
+                            android:layout_toStartOf="@+id/textView7" />
+
+                                <Button
+                                    android:id="@+id/fragment_add_to_blacklist_btn_add"
+                                    android:layout_width="250dp"
+                                    android:layout_height="32dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="@color/actionbar_color"
+                                    android:hint="@string/notes"
+                                    android:gravity="center"
+                                    android:paddingTop="5dp"
+                                    android:paddingBottom="5dp"
+                                    android:paddingLeft="15dp"
+                                    android:paddingRight="15dp"
+                                    android:text="@string/add"
+                                    android:textColor="@android:color/black"
+                                    android:textSize="@dimen/font_size_20"
+                                    android:textStyle="bold"
+                                    android:layout_below="@+id/fragment_add_to_blacklist_et_notes"
+                                    android:layout_alignParentLeft="false"
+                                    android:layout_alignParentStart="false"
+                                    android:layout_marginTop="50dp"
+                                    android:layout_alignParentEnd="false"
+                                    android:layout_alignParentRight="false"
+                                    android:layout_alignParentTop="false"
+                                    android:layout_alignWithParentIfMissing="false"
+                                    android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:id="@+id/textView2"
+            android:layout_alignBottom="@+id/fragment_add_to_blacklist_et_number"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/add_to_blacklist_required_star"
+            android:layout_marginLeft="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:id="@+id/textView5"
+            android:textColor="@color/add_to_blacklist_required_star"
+            android:layout_alignTop="@+id/fragment_add_to_blacklist_et_contry"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:id="@+id/textView7"
+            android:textColor="@color/add_to_blacklist_required_star"
+            android:layout_alignTop="@+id/fragment_add_to_blacklist_et_notes"
+            android:layout_alignRight="@+id/textView5"
+            android:layout_alignEnd="@+id/textView5"
+            android:layout_marginLeft="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/star_required_field"
+            android:id="@+id/textView8"
+            android:textColor="@color/add_to_blacklist_required_star"
+            android:layout_below="@+id/fragment_add_to_blacklist_et_notes"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

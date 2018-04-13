@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="put_extra_blacklist_id">blacklist_id</string>
+    <string name="put_extra_whitelist_id">whitelist_id</string>
+
+    <string name="put_extra_is_from_blacklist">is_from_blacklist</string>
+    <string name="put_extra_number">number</string>
+    
+    <string name="put_extra_only_number">only_number</string>
+    <string name="put_extra_country_code">country_code</string>
+    <string name="put_extra_country">country</string>
+    <string name="put_extra_caller_name">caller_name</string>
+    <string name="put_extra_is_local">is_local</string>
+    <string name="put_extra_note">note</string>
+    <string name="put_extra_group_position">group_position</string>
+    <string name="put_extra_child_position">child_position</string>
+    
+    
+    <!-- prefrence key -->
+
+    <!-- Indicates that this application has been installed and the user was registered. -->
+    <string name="pref_installed_application">app_installed</string>
+<!--
+    <string name="pref_cut_the_phone">cut_phone</string>
+    <string name="pref_sync_email">email</string>
+    <string name="pref_block_country_area">block_country_area</string>
+    <string name="pref_sim_country_code">sim_country_code</string>
+    <string name="pref_selected_country_code">selected_country_code</string>
+-->
+</resources>

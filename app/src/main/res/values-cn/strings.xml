@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- common string -->
+    <string name="app_name">Reverd</string>
+    <string name="action_settings">设置</string>
+    <string name="drawer_open">打开抽屉</string>
+    <string name="drawer_close">关闭抽屉</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="please_wait">请等候……</string>
+    <string name="send">发送</string>
+
+    <!-- alert message -->
+    <string name="alert_fill_all_required_field">请填写所有必填栏目</string>
+    <string name="alert_please_select_country">请选择国家</string>
+    <string name="alert_your_complaint_has_been_sent_for_review">投诉已成功提交</string>
+    <string name="alert_no_internet">没有可用的网络连接</string>
+    <string name="alert_please_select_atleast_one_number">请至少选择一个号码</string>
+    <string name="alert_please_enter_notes">请输入注解</string>
+    <string name="alert_number_already_exists">输入的号码已经存在。</string>
+    <string name="alert_report_this_number_to_the_community">将该号码报告至社区黑名单。\n让其他人知道。</string>
+    <string name="alert_add_this_number_to_blacklist">将此号码加入黑名单吗？</string>
+    <string name="alert_enter_valid_email">输入有效的电子邮件</string>
+
+    <!-- Title Text -->
+    <string name="blocked_list_title">阻止的号码</string>
+    <string name="black_list_title">黑名单</string>
+    <string name="recent_calls_title">最近呼叫</string>
+    <string name="edit_list_entry">编辑条目</string>
+    <string name="add_toblack_list_title">添加至黑名单</string>
+    <string name="detail_title">详情</string>
+    <string name="white_list_title">白名单</string>
+    <string name="complaints_title">投诉</string>
+    <string name="submit_complaints_title">提交投诉</string>
+    <string name="stats_title">统计数字</string>	
+    <string name="trash_title">回收站</string>
+    <string name="settings_title">设置</string>
+    <string name="feedback_title">反馈</string>
+    <string name="help_title">帮助</string>
+    <string name="privacy_title">隐私</string>
+
+    <!-- left menu fragment -->
+    <string name="black_list">黑名单</string>
+    <string name="recent_calls">最近呼叫</string>
+    <string name="stats">统计数字</string>
+    <string name="add_to_backlist">添加至黑名单</string>
+    <string name="white_list">白名单</string>
+    <string name="compaints">投诉</string>
+    <string name="trash">回收站</string>
+    <string name="settings">设置</string>
+    <string name="subscription">订阅</string>
+    <string name="help">帮助</string>
+    <string name="privacy">隐私</string>
+    <string name="feedback">反馈</string>
+
+    <!-- add to blacklist -->
+    <string name="number">电话号码</string>
+    <string name="country">呼叫人国家</string>
+    <string name="name">名称（如果知道）</string>
+    <string name="notes">注释</string>
+    <string name="add">添加</string>
+
+    <!-- submit complaints -->
+    <string name="complain">投诉</string>
+    <string name="submit">提交</string>
+    <string name="please_select_country">请选择国家</string>
+
+    <!-- detail fragment -->
+    <string name="view_complaints">查看投诉</string>
+
+    <!-- setting fragment -->
+    <string name="sync_with_email">与电子邮件同步</string>
+    <string name="block_calls">阻止无来电显示的电话</string>
+    <string name="block_area_contry">按区号或国家阻止</string>
+    <string name="enter_your_email">输入你的电子邮箱</string>
+
+    <!-- feedback fragment -->
+    <string name="feedback_txt">分享您的经验或提出改进建议</string>
+    <string name="my_comments">我的评论</string>
+
+    <!-- Trash fragment -->
+    <string name="selected_messages_deleted">选择的信息已删除</string>
+
+    <!-- Recent calls fragment -->
+    <string name="recent_calls_add_to_blacklist">添加至黑名单</string>
+    <string name="recent_calls_add_to_whitelist">添加到白名单</string>
+    <string name="recent_calls_status_blacklist">黑名单</string>
+    <string name="recent_calls_status_whitelist">白名单</string>
+
+    <!-- whitelist fragment -->
+    <string name="white_list_edit">编辑</string>
+    <string name="white_list_delete">删除</string>
+
+    <!-- permission popup toast -->
+    <string name="permission_toast_msg">启用usage access（使用接入），以使本应用程序正常运行（推荐）</string>
+
+    <!-- Production: -->
+    <string name="WebServicePrefix">https://reverd.com/rest_x9r5/v1</string>
+    <!-- Development: -->
+    <!--
+    <string name="WebServicePrefix">https://reverd.com/rest_x9r5/dev/v1.1</string>
+    -->
+
+    <!-- Statistics fragment -->
+    <string name="subscribe_for_updates">订阅更新</string>
+    <string name="your_community">您的社区</string>
+    <string name="complaints_database">投诉数据库</string>
+    <string name="is_outdated">已过时</string>
+    <string name="blocked_calls">阻止的呼叫</string>
+    <string name="in_the_last_days">最近30天内</string>
+    <string name="you_added">您已添加</string>
+    <string name="to_your_white_list">至您的白名单</string>
+    <string name="to_your_black_list">至您的黑名单</string>
+    <string name="num_phone_numbers">电话号码</string>
+    <string name="view_my_black_list">查看我的黑名单</string>
+    <string name="view_my_white_list">查看我的白名单</string>
+    <string name="up_to_date">已是最新</string>
+    <string name="updated">更新</string>
+    <string name="number_added_by_reverd_app">Reverd 应用程序用户添加的号码</string>
+    <string name="view_blocked_numbers">查看阻止的号码</string>
+    <string name="phone_added_to_backlist">电话号码加入到黑名单</string>
+    <string name="ten_minutes">10分钟</string>
+    <string name="blocked_calls_in_the_last">最后阻止的号码</string>
+    <string name="subscription_description_text">社区黑名单会自动更新包含最新报告的骚扰电话号码。</string>
+
+    <!-- Subscription fragment: -->
+    <string name="one_month_subscription">一个月订阅</string>
+    <string name="six_months_subscription">一六个月认购</string>
+    <string name="one_year_subscription">一年订阅</string>
+    <string name="monthly_subscription">按月订阅</string>
+    <string name="halfyear_subscription">半年订阅</string>
+    <string name="yearly_subscription">按年订阅</string>
+    <string name="unknown_subscription">未知订阅</string>
+    <string name="subscription_title">订阅</string>
+    <string name="you_re_subscribed_using">您正在使用订阅</string>
+    <string name="until">直到</string>
+    <string name="days_old">天</string>
+    <string name="day_old">天</string>
+    <string name="star_required_field">* 必填栏目</string>
+
+    <!-- Animation -->
+    <string name="show_slides">以顯示 Slide-Show</string>
+
+    <string name="anim_0">
+    <![CDATA[
+      <center>自动保护
+      <br>免接 
+      <br>骚扰电话
+      </center>
+    ]]>
+    </string>
+    <string name="anim_1">
+    <![CDATA[
+      <center>静默
+      <br>骚扰来电
+      <br>防止干扰
+      </center>
+    ]]>
+    </string>
+    <string name="anim_2">
+    <![CDATA[
+      <center>没有声音
+      <br>
+      <br>没有震动
+      </center>
+    ]]>
+    </string>
+    <string name="anim_3">
+    <![CDATA[
+      <center>Reverd应用创建
+      <br>您自己的黑名单
+      <br>无需触摸
+      <br>您的联系人
+      </center>
+    ]]>
+    </string>
+    <string name="anim_4">
+    <![CDATA[
+      <center>添加任何号码
+      <br>至您的黑名单
+      </center>
+    ]]>
+    </string>
+    <string name="anim_5">
+    <![CDATA[
+      <center>Reverd应用还创建
+      <br>您自己的
+      <br>白名单
+      </center>
+    ]]>
+    </string>
+    <string name="anim_6">
+    <![CDATA[
+      <center>点击“编辑”，将
+      <br>号码移至白名单
+      </center>
+    ]]>
+    </string>
+    <string name="anim_7">
+    <![CDATA[
+      <center>选择号码 ，
+      <br>移至白名单
+      </center>
+    ]]>
+    </string>
+    <string name="anim_8a">
+    <![CDATA[
+      <center>您移除的
+      <br>号码将
+      <br>不会再静默
+      </center>
+    ]]>
+    </string>
+    <string name="anim_8b">
+    <![CDATA[
+      <center>按区号或国家阻止
+      </center>
+    ]]>
+    </string>
+    <string name="anim_9">
+    <![CDATA[
+      <center>礼貌社区
+      <br>黑名单下载
+      <br>含有成千上万已报告
+      <br>骚扰号码
+      </center>
+    ]]>
+    </string>
+
+</resources>

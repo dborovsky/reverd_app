@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <!-- common string -->
+    <string name="app_name">Reverd</string>
+    <string name="action_settings">Настройки</string>
+    <string name="drawer_open">Открыть секцию</string>
+    <string name="drawer_close">Закрыть секцию</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="please_wait">Пожалуйста, подождите...</string>
+    <string name="send">Послать</string>
+
+    <!-- alert message -->
+    <string name="alert_fill_all_required_field">Пожалуйста, заполните все обязательные поля</string>
+    <string name="alert_please_select_country">Пожалуйста, выберите страну</string>
+    <string name="alert_your_complaint_has_been_sent_for_review">Жалоба успешно отправлена</string>
+    <string name="alert_no_internet">Отсутствует подключение к Интернету</string>
+    <string name="alert_please_select_atleast_one_number">Пожалуйста, выберите как минимум один номер</string>
+    <string name="alert_please_enter_notes">Пожалуйста, введите примечания</string>
+    <string name="alert_number_already_exists">Введенный номер уже существует</string>
+    <string name="alert_report_this_number_to_the_community">Внести этот номер в общественный черный список.\nПусть другие знают.</string>
+    <string name="alert_add_this_number_to_blacklist">Добавить этот номер в Черный список?</string>
+    <string name="alert_enter_valid_email">Введите действительный адрес электронной почты</string>
+
+    <!-- Title Text -->
+    <string name="blocked_list_title">Заблокированные номера</string>
+    <string name="black_list_title">Черный список</string>
+    <string name="recent_calls_title">Недавние звонки</string>
+    <string name="edit_list_entry">Редактировать запись</string>
+    <string name="add_toblack_list_title">Добавить в Черный список</string>
+    <string name="detail_title">Детали</string>
+    <string name="white_list_title">Белый список</string>
+    <string name="complaints_title">Жалобы</string>
+    <string name="submit_complaints_title">Отправить жалобу</string>
+    <string name="stats_title">Статистика</string>	
+    <string name="trash_title">Корзина</string>
+    <string name="settings_title">Настройки</string>
+    <string name="feedback_title">Отзыв</string>
+    <string name="help_title">Помощь</string>
+    <string name="privacy_title">Конфиденциальность</string>
+
+    <!-- left menu fragment -->
+    <string name="black_list">Черный список</string>
+    <string name="recent_calls">Недавние звонки</string>
+    <string name="stats">Статистика</string>
+    <string name="add_to_backlist">Добавить в Черный список</string>
+    <string name="white_list">Белый список</string>
+    <string name="compaints">Жалобы</string>
+    <string name="trash">Корзина</string>
+    <string name="settings">Настройки</string>
+    <string name="subscription">Подписка</string>
+    <string name="help">Помощь</string>
+    <string name="privacy">Конфиденциальность</string>
+    <string name="feedback">Отзыв</string>
+
+    <!-- add to blacklist -->
+    <string name="number">Номер телефона</string>
+    <string name="country">Вызывающий абонент страны</string>
+    <string name="name">Имя (если вы его знаете)</string>
+    <string name="notes">Примечания</string>
+    <string name="add">Добавить</string>
+
+    <!-- submit complaints -->
+    <string name="complain">Жалоба</string>
+    <string name="submit">Отправить</string>
+    <string name="please_select_country">Пожалуйста, выберите страну</string>
+
+    <!-- detail fragment -->
+    <string name="view_complaints">Просмотреть жалобы</string>
+
+    <!-- setting fragment -->
+    <string name="sync_with_email">Синхронизация с электронной почтой</string>
+    <string name="block_calls">Блокировать звонки без идентификатора звонящего</string>
+    <string name="block_area_contry">Блокировать по коду зоны или стране</string>
+    <string name="enter_your_email">Введите адрес электронной почты</string>
+
+    <!-- feedback fragment -->
+    <string name="feedback_txt">Поделитесь своим опытом или предложите улучшение</string>
+    <string name="my_comments">Мои комментарии</string>
+
+    <!-- Trash fragment -->
+    <string name="selected_messages_deleted">Выбранные сообщения удалены</string>
+
+    <!-- Recent calls fragment -->
+    <string name="recent_calls_add_to_blacklist">Добавить в Черный список</string>
+    <string name="recent_calls_add_to_whitelist">Добавить в Белый список</string>
+    <string name="recent_calls_status_blacklist">Черный список</string>
+    <string name="recent_calls_status_whitelist">Белый список</string>
+
+    <!-- whitelist fragment -->
+    <string name="white_list_edit">Редактировать</string>
+    <string name="white_list_delete">Удалить</string>
+
+    <!-- permission popup toast -->
+    <string name="permission_toast_msg">Разрешить доступ к данным об использовании этого приложения для его надлежащего функционирования (рекомендуется)</string>
+
+    <!-- Production: -->
+    <string name="WebServicePrefix">https://reverd.com/rest_x9r5/v1</string>
+    <!-- Development: -->
+    <!--
+    <string name="WebServicePrefix">https://reverd.com/rest_x9r5/dev/v1.1</string>
+    -->
+
+    <!-- Statistics fragment -->
+    <string name="subscribe_for_updates">Подписаться на обновления</string>
+    <string name="your_community">Ваша сообщество</string>
+    <string name="complaints_database">база данных жалоб</string>
+    <string name="is_outdated">устарела</string>
+    <string name="blocked_calls">заблокированные звонки</string>
+    <string name="in_the_last_days">за последние 30 дней</string>
+    <string name="you_added">Вы добавили</string>
+    <string name="to_your_white_list">в свой белый список</string>
+    <string name="to_your_black_list">в свой черный список</string>
+    <string name="num_phone_numbers">телефонные номера</string>
+    <string name="view_my_black_list">Просмотреть мой Черный список</string>
+    <string name="view_my_white_list">Просмотреть мой Белый список</string>
+    <string name="up_to_date">обновлено</string>
+    <string name="updated">Обновлено</string>
+    <string name="number_added_by_reverd_app">Номер добавлен пользователем приложения Reverd</string>
+    <string name="view_blocked_numbers">Просмотреть заблокированные номера</string>
+    <string name="phone_added_to_backlist">Номер был добавлен в черный список</string>
+    <string name="ten_minutes">10 минут</string>
+    <string name="blocked_calls_in_the_last">заблокированные звонки за последние</string>
+    <string name="subscription_description_text">Автоматические обновления черного списка сообщества содержат последние сообщенные номера назойливых абонентов.</string>
+
+    <!-- Subscription fragment -->
+    <string name="one_month_subscription">Подписка на один месяц</string>
+    <string name="six_months_subscription">Подписка на шесть месяцев</string>
+    <string name="one_year_subscription">Подписка на один год</string>
+    <string name="monthly_subscription">месячная подписка</string>
+    <string name="halfyear_subscription">полгода подпискa</string>
+    <string name="yearly_subscription">годовая подписка</string>
+    <string name="unknown_subscription">неизвестная подписка</string>
+    <string name="subscription_title">Подписка</string>
+    <string name="you_re_subscribed_using">Вы подписались при помощи</string>
+    <string name="until">до</string>
+    <string name="days_old">дней назад</string>
+    <string name="day_old">день назад</string>
+    <string name="star_required_field">* Обязательное к заполнению поле</string>
+
+    <!-- Animation -->
+    <string name="show_slides">чтобы показать Slide-Show</string>
+
+    <string name="anim_0">
+    <![CDATA[
+      <center>Автоматическая защита
+      <br>от 
+      <br>нежелательных звонков
+      </center>
+    ]]>
+    </string>
+    <string name="anim_1">
+    <![CDATA[
+      <center>Отключай звук при
+      <br>нежелательных входящих звонках,
+      <br>чтобы они не беспокоили тебя
+      </center>
+    ]]>
+    </string>
+    <string name="anim_2">
+    <![CDATA[
+      <center>Никакого звука
+      <br>
+      <br>Никакой вибрации
+      </center>
+    ]]>
+    </string>
+    <string name="anim_3">
+    <![CDATA[
+      <center>Приложение Reverd создает
+      <br>твой собственный черный
+      <br>список, не пользуясь
+      <br>твоими контактами
+      </center>
+    ]]>
+    </string>
+    <string name="anim_4">
+    <![CDATA[
+      <center>Добавляй любые номера
+      <br>в свой черный список
+      </center>
+    ]]>
+    </string>
+    <string name="anim_5">
+    <![CDATA[
+      <center>Приложение Reverd также
+      <br>создает твой собственный
+      <br>белый список
+      </center>
+    ]]>
+    </string>
+    <string name="anim_6">
+    <![CDATA[
+      <center>Нажми на «Изменить» и
+      <br>перенеси номера в белый список
+      </center>
+    ]]>
+    </string>
+    <string name="anim_7">
+    <![CDATA[
+      <center>Выбери номера для
+      <br>переноса в белый список
+      </center>
+    ]]>
+    </string>
+    <string name="anim_8a">
+    <![CDATA[
+      <center>Для удаленных тобой
+      <br>номеров звук больше
+      <br>не будет выключаться
+      </center>
+    ]]>
+    </string>
+    <string name="anim_8b">
+    <![CDATA[
+      <center>Блокировать по коду
+      <br>зоны или стране
+      </center>
+    ]]>
+    </string>
+    <string name="anim_9">
+    <![CDATA[
+      <center>Загружен бесплатный
+      <br>черный список сообщества
+      <br>с тысячами сообщенных
+      <br>нежелательных номеров
+      </center>
+    ]]>
+    </string>
+
+</resources>

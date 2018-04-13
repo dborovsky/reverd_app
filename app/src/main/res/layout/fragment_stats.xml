@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/submit_compaints_background"
+    android:padding="0dp" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp" >
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/your_community"
+        android:id="@+id/text_community"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/complaints_database"
+        android:id="@+id/complaints_db_text"
+        android:layout_below="@+id/text_community"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/is_outdated"
+        android:id="@+id/db_status1"
+        android:layout_below="@+id/complaints_db_text"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="updated some time ago"
+        android:id="@+id/db_status2"
+        android:layout_below="@+id/db_status1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/subscribeButton"
+        android:layout_width="250dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/actionbar_color"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/subscribe_for_updates"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_size_20"
+        android:textStyle="bold"
+        android:layout_below="@+id/db_status2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/blocked_calls"
+        android:id="@+id/blockedCalls1"
+        android:layout_below="@id/subscribeButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/in_the_last_days"
+        android:id="@+id/blockedCalls2"
+        android:layout_below="@+id/blockedCalls1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/viewBlockedNumbersButton"
+        android:layout_width="250dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/actionbar_color"
+        android:text="@string/view_blocked_numbers"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_size_20"
+        android:textStyle="bold"
+        android:layout_below="@+id/blockedCalls2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/you_added"
+        android:id="@+id/textView"
+        android:layout_below="@+id/viewBlockedNumbersButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/num_phone_numbers"
+        android:id="@+id/bl_phonenumbers"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/to_your_black_list"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/bl_phonenumbers"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/viewBlackListButton"
+        android:layout_width="250dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@color/actionbar_color"
+        android:text="@string/view_my_black_list"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_size_20"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/you_added"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/viewBlackListButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/num_phone_numbers"
+        android:id="@+id/wl_phonenumbers"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/to_your_white_list"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/wl_phonenumbers"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/viewWhiteListButton"
+        android:layout_width="250dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@color/actionbar_color"
+        android:text="@string/view_my_white_list"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_size_20"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+
+</ScrollView>
