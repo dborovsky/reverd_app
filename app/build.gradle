@@ -39,14 +39,14 @@ android {
 
     signingConfigs{
         debug {
-            storeFile file("../../../keystore/reverd-release.keystore")
+            storeFile file("../keystore/reverd-release.keystore")
             storePassword "aira8io3oquooK5ni7Yo9ohPeShaiphu"
             keyAlias "reverd"
             keyPassword "aira8io3oquooK5ni7Yo9ohPeShaiphu"
         }
 
         release {
-            storeFile file("../../../keystore/reverd-release.keystore")
+            storeFile file("../keystore/reverd-release.keystore")
             storePassword "aira8io3oquooK5ni7Yo9ohPeShaiphu"
             keyAlias "reverd"
             keyPassword "aira8io3oquooK5ni7Yo9ohPeShaiphu"
@@ -77,6 +77,12 @@ android {
     testOptions {
         unitTests.returnDefaultValues = true
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
+
 }
 
 dependencies {
