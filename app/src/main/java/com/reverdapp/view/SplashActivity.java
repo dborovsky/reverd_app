@@ -41,6 +41,10 @@ import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+
 public class SplashActivity extends Activity implements InventoryLoadedBase.IUpdateView {
 
     private static final String TAG = LogConfig.genLogTag("SplashActivity");
@@ -87,6 +91,11 @@ public class SplashActivity extends Activity implements InventoryLoadedBase.IUpd
         } else {
            initAppAndHome();
         }
+
+        AppCenter.start(getApplication(),
+                "7bcb9917-05fb-4cc0-9eab-12086a04b4f9",
+                Analytics.class, Crashes.class);
+
     }
 
     class StartAnyway extends TimerTask {

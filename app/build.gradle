@@ -1,5 +1,11 @@
 apply plugin: 'com.android.application'
 
+dependencies {
+    def appCenterSdkVersion = '1.4.0'
+    compile "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
+    compile "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
+}
+
 android {
 
     def stdout = new ByteArrayOutputStream()
@@ -16,7 +22,7 @@ android {
 
     defaultConfig {
         applicationId "com.reverd"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 21
 
         // This makes sense, but it may not work with google in-app purchases:
